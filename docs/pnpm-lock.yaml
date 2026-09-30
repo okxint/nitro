@@ -12,11 +12,11 @@ importers:
         specifier: ^0.4.3
         version: 0.4.3
       motion-v:
-        specifier: ^2.4.4
-        version: 2.4.4(@vueuse/core@14.4.0(vue@3.5.43))(vue@3.5.43)
+        specifier: ^2.5.0
+        version: 2.5.1(@vueuse/core@14.4.0(vue@3.5.43))(vue@3.5.43)
       undocs:
-        specifier: npm:undocs-nightly@0.10.1-20260909-093809-9b3fed7
-        version: undocs-nightly@0.10.1-20260909-093809-9b3fed7(@oxc-project/types@0.151.0)(chokidar@5.0.0)(csstype@3.2.3)(dotenv@17.4.2)(giget@3.3.1)(jiti@2.7.0)(lightningcss@1.33.0)(rolldown@1.2.11)
+        specifier: npm:undocs-nightly@0.10.1-20260922-215730-10f5034
+        version: undocs-nightly@0.10.1-20260922-215730-10f5034(@oxc-project/types@0.151.0)(chokidar@5.0.0)(csstype@3.2.3)(dotenv@17.4.2)(giget@3.3.1)(jiti@2.7.0)(lightningcss@1.33.0)(rolldown@1.2.11)
 
 packages:
 
@@ -925,6 +925,12 @@ packages:
       '@vueuse/core': '>=10.0.0'
       vue: '>=3.0.0'
 
+  motion-v@2.5.1:
+    resolution: {integrity: sha512-0zkYUiDZmzkBACh5TF4JuguGAF/Hv08YpCfH1Gbj1U/WTz195kEliONbVorYVWgDaveDF4EBGAUx2klxRuesdw==}
+    peerDependencies:
+      '@vueuse/core': '>=10.0.0'
+      vue: '>=3.0.0'
+
   nanoid@3.3.19:
     resolution: {integrity: sha512-Y2tUNy4ouw6tq5oDSKeQYGOyhkUBhNOcGV/02KC+6kd9eDGqdZd++mjMiIDilrBYvjEnCYvVtsuHCuP+okSfug==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -1060,8 +1066,8 @@ packages:
   ufo@1.6.4:
     resolution: {integrity: sha512-JFNbkD1Svwe0KvGi8GOeLcP4kAWQ609twvCdcHxq1oSL8svv39ZuSvajcD8B+5D0eL4+s1Is2D/O6KN3qcTeRA==}
 
-  undocs-nightly@0.10.1-20260909-093809-9b3fed7:
-    resolution: {integrity: sha512-GQWduSU8Je5OQ3taKZtO/4jLTF6X27qrIvDAVOr2Bgc6vb+mrC/m2x+MGZLufpopMAe/AC61dyHJBxenhQJzdg==}
+  undocs-nightly@0.10.1-20260922-215730-10f5034:
+    resolution: {integrity: sha512-eTXWYvWBJWyS27jeY6nvCY7UffJSLR8PchtW5IbsMc5I1v1HbH4fp1QeB5tU6COH8JAOXA6NlmRV0eL2tIqHPQ==}
     hasBin: true
 
   unenv@2.0.0-rc.24:
@@ -1899,6 +1905,18 @@ snapshots:
       - react
       - react-dom
 
+  motion-v@2.5.1(@vueuse/core@14.4.0(vue@3.5.43))(vue@3.5.43):
+    dependencies:
+      '@vueuse/core': 14.4.0(vue@3.5.43)
+      framer-motion: 13.4.4
+      hey-listen: 1.0.8
+      motion-dom: 13.4.4
+      motion-utils: 13.3.0
+      vue: 3.5.43
+    transitivePeerDependencies:
+      - react
+      - react-dom
+
   nanoid@3.3.19: {}
 
   nf3@0.3.24: {}
@@ -2039,7 +2057,7 @@ snapshots:
 
   ufo@1.6.4: {}
 
-  undocs-nightly@0.10.1-20260909-093809-9b3fed7(@oxc-project/types@0.151.0)(chokidar@5.0.0)(csstype@3.2.3)(dotenv@17.4.2)(giget@3.3.1)(jiti@2.7.0)(lightningcss@1.33.0)(rolldown@1.2.11):
+  undocs-nightly@0.10.1-20260922-215730-10f5034(@oxc-project/types@0.151.0)(chokidar@5.0.0)(csstype@3.2.3)(dotenv@17.4.2)(giget@3.3.1)(jiti@2.7.0)(lightningcss@1.33.0)(rolldown@1.2.11):
     dependencies:
       '@floating-ui/dom': 1.8.0
       '@fontsource-variable/geist': 5.3.0
